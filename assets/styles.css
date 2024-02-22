@@ -15,7 +15,7 @@ body {
 .main {
   background-image: url("/assets/img/bg.png");
   background-color: white;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   max-width: 500px;
@@ -130,4 +130,18 @@ body {
   font-family: "Comic Neue", cursive;
   font-weight: 700;
   font-style: italic;
+}
+
+
+.animation-load {
+  animation: hithere 1s ease-in-out;
+}
+
+@keyframes hithere {
+  0% { transform: scale(.9); }
+  30% { transform: scale(1.1); }
+  40%, 60% { transform: rotate(-20deg) scale(1.1); }
+  50% { transform: rotate(20deg) scale(1.1); }
+  70% { transform: rotate(0deg) scale(1.1); }
+  100% { transform: scale(1); }
 }
