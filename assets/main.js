@@ -282,21 +282,21 @@ const updateUI = (question) => {
   const nextButton = document.getElementById("button-next");
 
   if (questionText && optionsContainer && progressWidth && nextButton) {
-    questionText.innerHTML = question?.question;
-    if (answers[index] !== undefined) {
-      nextButton.classList.remove("disabled");
-    } else {
-      nextButton.classList.add("disabled");
-    }
-    const optionList = question?.options?.map((e, i) => {
-      const classActive = answers[index] === i ? "selected" : "";
-      return `
+    if (!!question) {
+      questionText.innerHTML = question?.question;
+      if (answers[index] !== undefined) {
+        nextButton.classList.remove("disabled");
+      } else {
+        nextButton.classList.add("disabled");
+      }
+      const optionList = question?.options?.map((e, i) => {
+        const classActive = answers[index] === i ? "selected" : "";
+        return `
         <div class="card shadow-sm border border-0 answer ${classActive}" onclick="handleSelect(${i})">
           <div class="card-body">${e}</div>
         </div>
       `;
-    });
-    if (!!question) {
+      });
       optionsContainer.innerHTML = optionList.join(" ");
     }
     const width = (index / questions.length) * 100;

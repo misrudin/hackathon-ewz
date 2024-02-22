@@ -46,6 +46,12 @@ body {
   background-color: var(--primary) !important;
 }
 
+.btn-primary.disabled {
+  background-color: #CCC !important;
+  opacity: 1 !important;
+  color: var(--secondary-500);
+}
+
 .text-primary {
   color: var(--primary) !important;
 }
