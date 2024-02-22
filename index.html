@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Test</title>
+    <title>Selamat Datang</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:wght@400..900&display=swap"
       rel="stylesheet"
     />
     <link
@@ -19,26 +19,35 @@
     <link rel="stylesheet" href="assets/styles.css" />
   </head>
   <body>
-    <main class="main shadow mx-auto px-3 py-5">
-      <div class="progress rounded-pill" role="progressbar">
-        <div
-          class="progress-bar rounded-pill bg-primary"
-          style="width: 10%"
-          id="progress"
-        ></div>
+    <main class="main shadow mx-auto px-3 pb-2">
+      <div class="d-flex justify-content-center">
+        <lottie-player
+          src="https://lottie.host/ef309cf5-8bb8-42a0-9924-5eadfb8bcd2b/oVT2H2HrwX.json"
+          background="##FFFFFF"
+          speed="1"
+          style="width: 300px; height: 300px"
+          loop
+          autoplay
+          direction="1"
+          mode="normal"
+        ></lottie-player>
       </div>
-      <h2 class="mt-4 question" id="question"></h2>
+      <div class="shadow bg-white rounded rounded-lg p-3 animation-load">
+        <h2 style="font-size: 26px;" class="question comic-neue-bold text-center">
+          Temukan Jalan Petualanganmu
+        </h2>
+        <p style="font-size: 18px;" class="comic-neue-bold text-center mt-4">
+          Setiap pertanyaan dalam quiz ini membawa kamu lebih dekat pada
+          pemahaman tentang bisnis idealmu. Seperti seorang petualang yang
+          mencari harta karun, setiap pilihan yang kamu buat membentuk peta
+          untuk perjalananmu.
+        </p>
 
-      <div class="d-flex flex-column gap-3 mt-5" id="options"></div>
-      <div class="d-flex footer p-3 gap-3">
-        <button
-          type="button"
-          class="btn btn-primary w-100 disabled"
-          onclick="handleNext()"
-          id="button-next"
-        >
-          Next
-        </button>
+        <div class="d-flex justify-content-center p-3">
+          <a href="/mission.html">
+            <button type="button" class="btn btn-primary px-5">Mulai Test</button>
+          </a>
+        </div>
       </div>
     </main>
 
@@ -47,6 +56,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <script src="assets/main.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   </body>
 </html>

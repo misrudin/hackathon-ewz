@@ -101,72 +101,107 @@ let scores = {
   "Sahabat Petualang": 0,
   "Penemu Visioner": 0,
   "Singa Ramah": 0,
-  "Burung Hantu Visioner": 0
+  "Burung Hantu Visioner": 0,
 };
 
 const personaExplanation = {
-    "Pahlawan Hangat": {
-      "description": "Kamu cenderung mencari bisnis yang bersifat ramah, hangat, dan memberikan pengalaman yang menyentuh hati bagi pelanggan. Kamu mungkin berfokus pada kolaborasi dengan komunitas dan nilai-nilai yang mendalam",
-      "businessRecomendation": "Bisnis yang cocok untukmu adalah yang fokus pada pelayanan pelanggan yang hangat dan ramah. Jadikan kepedulian terhadap kebutuhan pelanggan sebagai prioritas utama. Pertimbangkan untuk membangun komunitas loyal melalui layanan pelanggan yang unggul dan dukungan yang hangat.",
-      "businessPartner": {
-        "persona": "Penemu Visioner",
-        "description": "berkolaborasi dengan Penemu Visioner untuk menghadirkan ide-ide inovatif dalam sebuah bisnis yang juga memperhatikan nilai-nilai emosional dan kehangatan. Kedua ini saling melengkapi, dengan Pahlawan Hangat membawa aspek kebersamaan dan kepedulian, sementara Penemu Visioner membawa inovasi dan ketajaman visi"
-      },
-      "luckyDay": "Selasa",
-      "radarChart": "https://storage-dev.mysooltan.co.id/ewz-indibiz-pub-dev/hackathon/group5/pahlawan-hangat.png"
+  "Pahlawan Hangat": {
+    description:
+      "Kamu cenderung mencari bisnis yang bersifat ramah, hangat, dan memberikan pengalaman yang menyentuh hati bagi pelanggan. Kamu mungkin berfokus pada kolaborasi dengan komunitas dan nilai-nilai yang mendalam",
+    businessRecomendation:
+      "Bisnis yang cocok untukmu adalah yang fokus pada pelayanan pelanggan yang hangat dan ramah. Jadikan kepedulian terhadap kebutuhan pelanggan sebagai prioritas utama. Pertimbangkan untuk membangun komunitas loyal melalui layanan pelanggan yang unggul dan dukungan yang hangat.",
+    businessPartner: {
+      persona: "Penemu Visioner",
+      description:
+        "berkolaborasi dengan Penemu Visioner untuk menghadirkan ide-ide inovatif dalam sebuah bisnis yang juga memperhatikan nilai-nilai emosional dan kehangatan. Kedua ini saling melengkapi, dengan Pahlawan Hangat membawa aspek kebersamaan dan kepedulian, sementara Penemu Visioner membawa inovasi dan ketajaman visi",
     },
-    "Penyihir Kreatif": {
-      "description": "Kamu tertarik pada bisnis yang unik, kreatif, dan menarik perhatian. Kamu mungkin lebih fokus pada inovasi dan ide-ide baru yang bisa mengubah cara tradisional berbisnis.",
-      "businessRecomendation": "Dengan kekreatifanmu, kamu bisa mengembangkan bisnis yang unik dan inovatif. Manfaatkan kreativitasmu untuk menciptakan produk atau layanan yang menarik dan memukau pelanggan. Jangan ragu untuk berpikir di luar kotak dan mencoba hal-hal baru yang belum pernah dilakukan sebelumnya.",
-      "businessPartner": {
-        "persona": "Burung Hantu Visioner",
-        "description": "berinspirasi oleh Burung Hantu Visioner untuk mengembangkan ide-ide baru yang lebih terstruktur dan mempertimbangkan implikasi jangka panjangnya. Kalian dapat saling memperkaya dengan kreativitas dan ketajaman analitis Kalian, menciptakan sebuah bisnis yang tidak hanya unik, tetapi juga berdaya saing tinggi."
-      },
-      "luckyDay": "Kamis",
-      "radarChart": "https://storage-dev.mysooltan.co.id/ewz-indibiz-pub-dev/hackathon/group5/penyihir-kreatif.png"
+    luckyDay: "Selasa",
+    radarChart:
+      "https://storage-dev.mysooltan.co.id/ewz-indibiz-pub-dev/hackathon/group5/pahlawan-hangat.png",
+    animation:
+      "https://lottie.host/8af34191-f35f-47a2-9401-d835bedc0160/mbLlDqrErk.json",
+  },
+  "Penyihir Kreatif": {
+    description:
+      "Kamu tertarik pada bisnis yang unik, kreatif, dan menarik perhatian. Kamu mungkin lebih fokus pada inovasi dan ide-ide baru yang bisa mengubah cara tradisional berbisnis.",
+    businessRecomendation:
+      "Dengan kekreatifanmu, kamu bisa mengembangkan bisnis yang unik dan inovatif. Manfaatkan kreativitasmu untuk menciptakan produk atau layanan yang menarik dan memukau pelanggan. Jangan ragu untuk berpikir di luar kotak dan mencoba hal-hal baru yang belum pernah dilakukan sebelumnya.",
+    businessPartner: {
+      persona: "Burung Hantu Visioner",
+      description:
+        "berinspirasi oleh Burung Hantu Visioner untuk mengembangkan ide-ide baru yang lebih terstruktur dan mempertimbangkan implikasi jangka panjangnya. Kalian dapat saling memperkaya dengan kreativitas dan ketajaman analitis Kalian, menciptakan sebuah bisnis yang tidak hanya unik, tetapi juga berdaya saing tinggi.",
     },
-    "Sahabat Petualang": {
-      "description": "Kamu cenderung memilih bisnis yang menawarkan kenyamanan, kehangatan, dan kesetiaan bagi pelanggan. Kamu mungkin lebih fokus pada hubungan personal dan kolaboratif dengan tim dan pelanggan.",
-      "businessRecomendation": "Bisnis yang cocok untukmu adalah yang berfokus pada membangun hubungan yang kuat dengan pelanggan. Dengarkan dengan teliti kebutuhan dan keinginan pelangganmu, dan berikan layanan yang memenuhi ekspektasi Kalian. Pertahankan kesetiaan pelanggan dengan memastikan bahwa Kalian merasa dihargai dan didengar.",
-      "businessPartner": {
-        "persona": "Singa Ramah",
-        "description": "Bekerja sama dengan Singa Ramah untuk membangun hubungan yang kuat dengan pelanggan. Kedua persona ini memahami pentingnya nilai-nilai seperti kepercayaan dan kesetiaan dalam bisnis, dan bersama-sama Kalian dapat menciptakan lingkungan yang hangat dan ramah bagi pelanggan Kalian"
-      },
-      "luckyDay": "Jumat",
-      "radarChart": "https://storage-dev.mysooltan.co.id/ewz-indibiz-pub-dev/hackathon/group5/sahabat-petualang.png"
+    luckyDay: "Kamis",
+    radarChart:
+      "https://storage-dev.mysooltan.co.id/ewz-indibiz-pub-dev/hackathon/group5/penyihir-kreatif.png",
+    animation:
+      "https://lottie.host/64475364-bb1e-4747-9108-5a08ed897f93/XU2cCNYDd0.json",
+  },
+  "Sahabat Petualang": {
+    description:
+      "Kamu cenderung memilih bisnis yang menawarkan kenyamanan, kehangatan, dan kesetiaan bagi pelanggan. Kamu mungkin lebih fokus pada hubungan personal dan kolaboratif dengan tim dan pelanggan.",
+    businessRecomendation:
+      "Bisnis yang cocok untukmu adalah yang berfokus pada membangun hubungan yang kuat dengan pelanggan. Dengarkan dengan teliti kebutuhan dan keinginan pelangganmu, dan berikan layanan yang memenuhi ekspektasi Kalian. Pertahankan kesetiaan pelanggan dengan memastikan bahwa Kalian merasa dihargai dan didengar.",
+    businessPartner: {
+      persona: "Singa Ramah",
+      description:
+        "Bekerja sama dengan Singa Ramah untuk membangun hubungan yang kuat dengan pelanggan. Kedua persona ini memahami pentingnya nilai-nilai seperti kepercayaan dan kesetiaan dalam bisnis, dan bersama-sama Kalian dapat menciptakan lingkungan yang hangat dan ramah bagi pelanggan Kalian",
     },
-    "Penemu Visioner": {
-      "description": "Kamu tertarik pada bisnis yang dinamis, inovatif, dan selalu mencari cara baru untuk berkembang. Kamu mungkin memiliki visi jauh ke depan dan berani mengambil risiko dalam mencapai tujuan Kamu.",
-      "businessRecomendation": "Dengan visi jauh ke depanmu, kamu bisa memimpin bisnis menuju keberhasilan yang besar. Manfaatkan kecerdasan analitis dan visimu untuk mengidentifikasi tren pasar dan peluang pertumbuhan. Jangan ragu untuk mengambil risiko dan berinovasi untuk membedakan bisnismu dari yang lain.",
-      "businessPartner": {
-        "persona": "Pahlawan Hangat",
-        "description": "berkolaborasi dengan Pahlawan Hangat untuk menghadirkan ide-ide inovatif dalam sebuah bisnis yang juga memperhatikan nilai-nilai emosional dan kehangatan. Kedua ini saling melengkapi, dengan Pahlawan Hangat membawa aspek kebersamaan dan kepedulian, sementara Penemu Visioner membawa inovasi dan ketajaman visi"
-      },
-      "luckyDay": "Sabtu",
-      "radarChart": "https://storage-dev.mysooltan.co.id/ewz-indibiz-pub-dev/hackathon/group5/penemu-visioner.png"
+    luckyDay: "Jumat",
+    radarChart:
+      "https://storage-dev.mysooltan.co.id/ewz-indibiz-pub-dev/hackathon/group5/sahabat-petualang.png",
+    animation:
+      "https://lottie.host/dc3995e2-1673-46db-a166-9a19bfae031b/xm7tjAhuEi.json",
+  },
+  "Penemu Visioner": {
+    description:
+      "Kamu tertarik pada bisnis yang dinamis, inovatif, dan selalu mencari cara baru untuk berkembang. Kamu mungkin memiliki visi jauh ke depan dan berani mengambil risiko dalam mencapai tujuan Kamu.",
+    businessRecomendation:
+      "Dengan visi jauh ke depanmu, kamu bisa memimpin bisnis menuju keberhasilan yang besar. Manfaatkan kecerdasan analitis dan visimu untuk mengidentifikasi tren pasar dan peluang pertumbuhan. Jangan ragu untuk mengambil risiko dan berinovasi untuk membedakan bisnismu dari yang lain.",
+    businessPartner: {
+      persona: "Pahlawan Hangat",
+      description:
+        "berkolaborasi dengan Pahlawan Hangat untuk menghadirkan ide-ide inovatif dalam sebuah bisnis yang juga memperhatikan nilai-nilai emosional dan kehangatan. Kedua ini saling melengkapi, dengan Pahlawan Hangat membawa aspek kebersamaan dan kepedulian, sementara Penemu Visioner membawa inovasi dan ketajaman visi",
     },
-    "Singa Ramah": {
-      "description": "menunjukkan kecenderungan yang seimbang antara sifat hangat dan kreatif. Kamu mungkin menggabungkan elemen kehangatan personal dengan inovasi yang menarik untuk menciptakan bisnis yang unik dan berdampak.",
-      "businessRecomendation": "Dengan sifat ramah dan hangatmu, kamu bisa membangun hubungan yang erat dengan pelanggan. Fokuslah pada memberikan pengalaman pelanggan yang menyenangkan dan berkesan. Jaga agar suasana di tempat bisnismu selalu ramah dan menyambut, sehingga pelanggan merasa seperti di rumah sendiri.",
-      "businessPartner": {
-        "persona": "Sahabat Petualang",
-        "description": "Bekerja sama dengan Sahabat Petualang untuk membangun hubungan yang kuat dengan pelanggan. Kedua persona ini memahami pentingnya nilai-nilai seperti kepercayaan dan kesetiaan dalam bisnis, dan bersama-sama Kalian dapat menciptakan lingkungan yang hangat dan ramah bagi pelanggan Kalian"
-      },
-      "luckyDay": "Minggu",
-      "radarChart": "https://storage-dev.mysooltan.co.id/ewz-indibiz-pub-dev/hackathon/group5/singa-ramah.png"
+    luckyDay: "Sabtu",
+    radarChart:
+      "https://storage-dev.mysooltan.co.id/ewz-indibiz-pub-dev/hackathon/group5/penemu-visioner.png",
+    animation:
+      "https://lottie.host/0d377d51-294e-4c5f-bff9-fe53c21cceba/uj6PMxZuK4.json",
+  },
+  "Singa Ramah": {
+    description:
+      "menunjukkan kecenderungan yang seimbang antara sifat hangat dan kreatif. Kamu mungkin menggabungkan elemen kehangatan personal dengan inovasi yang menarik untuk menciptakan bisnis yang unik dan berdampak.",
+    businessRecomendation:
+      "Dengan sifat ramah dan hangatmu, kamu bisa membangun hubungan yang erat dengan pelanggan. Fokuslah pada memberikan pengalaman pelanggan yang menyenangkan dan berkesan. Jaga agar suasana di tempat bisnismu selalu ramah dan menyambut, sehingga pelanggan merasa seperti di rumah sendiri.",
+    businessPartner: {
+      persona: "Sahabat Petualang",
+      description:
+        "Bekerja sama dengan Sahabat Petualang untuk membangun hubungan yang kuat dengan pelanggan. Kedua persona ini memahami pentingnya nilai-nilai seperti kepercayaan dan kesetiaan dalam bisnis, dan bersama-sama Kalian dapat menciptakan lingkungan yang hangat dan ramah bagi pelanggan Kalian",
     },
-    "Burung Hantu Visioner": {
-      "description": "Kamu yang campuran antara jawaban A dan B, menunjukkan kecenderungan yang seimbang antara sifat cerdas dan kreatif. Kamu mungkin menggabungkan kecerdasan analitis dengan inovasi yang mendalam untuk menciptakan bisnis yang cerdas dan berdaya saing tinggi.",
-      "businessRecomendation": "Dengan kepintaran analitis dan visi jangka panjangmu, kamu bisa mengarahkan bisnis ke arah yang sukses. Manfaatkan pengetahuan dan wawasanmu untuk membuat keputusan strategis yang cerdas. Jadikan inovasi dan efisiensi sebagai kunci untuk mencapai tujuan bisnis jangka panjangmu.",
-      "businessPartner": {
-        "persona": "Penyihir Kreatif",
-        "description": "berinspirasi oleh Penyihir Kreatif untuk mengembangkan ide-ide baru yang lebih terstruktur dan mempertimbangkan implikasi jangka panjangnya. Kalian dapat saling memperkaya dengan kreativitas dan ketajaman analitis Kalian, menciptakan sebuah bisnis yang tidak hanya unik, tetapi juga berdaya saing tinggi."
-      },
-      "luckyDay": "Senin",
-      "radarChart": "https://storage-dev.mysooltan.co.id/ewz-indibiz-pub-dev/hackathon/group5/burung-hantu-visioner.png"
-    }
-  };
-
+    luckyDay: "Minggu",
+    radarChart:
+      "https://storage-dev.mysooltan.co.id/ewz-indibiz-pub-dev/hackathon/group5/singa-ramah.png",
+    animation:
+      "https://lottie.host/10019a7a-a8a8-4b23-a94e-b4d937659130/xQ3b8vlM9V.json",
+  },
+  "Burung Hantu Visioner": {
+    description:
+      "Kamu yang campuran antara jawaban A dan B, menunjukkan kecenderungan yang seimbang antara sifat cerdas dan kreatif. Kamu mungkin menggabungkan kecerdasan analitis dengan inovasi yang mendalam untuk menciptakan bisnis yang cerdas dan berdaya saing tinggi.",
+    businessRecomendation:
+      "Dengan kepintaran analitis dan visi jangka panjangmu, kamu bisa mengarahkan bisnis ke arah yang sukses. Manfaatkan pengetahuan dan wawasanmu untuk membuat keputusan strategis yang cerdas. Jadikan inovasi dan efisiensi sebagai kunci untuk mencapai tujuan bisnis jangka panjangmu.",
+    businessPartner: {
+      persona: "Penyihir Kreatif",
+      description:
+        "berinspirasi oleh Penyihir Kreatif untuk mengembangkan ide-ide baru yang lebih terstruktur dan mempertimbangkan implikasi jangka panjangnya. Kalian dapat saling memperkaya dengan kreativitas dan ketajaman analitis Kalian, menciptakan sebuah bisnis yang tidak hanya unik, tetapi juga berdaya saing tinggi.",
+    },
+    luckyDay: "Senin",
+    radarChart:
+      "https://storage-dev.mysooltan.co.id/ewz-indibiz-pub-dev/hackathon/group5/burung-hantu-visioner.png",
+    animation:
+      "https://lottie.host/057b8f83-cec6-4b33-b105-1b10a857eca6/FQwbIAp1a6.json",
+  },
+};
 
 const calculateResult = () => {
   answers.forEach((answer, index) => {
@@ -196,7 +231,6 @@ const calculateResult = () => {
         }
         break;
     }
-
   });
 
   // Sisipkan penambahan skor untuk pertanyaan-pertanyaan lain di sini
@@ -210,7 +244,11 @@ const calculateResult = () => {
       topCategory = category;
     }
   }
-  if (topCategory === "Pahlawan Hangat" || topCategory === "Penyihir Kreatif" || topCategory === "Penemu Visioner") {
+  if (
+    topCategory === "Pahlawan Hangat" ||
+    topCategory === "Penyihir Kreatif" ||
+    topCategory === "Penemu Visioner"
+  ) {
     if (scores["Pahlawan Hangat"] === scores["Penyihir Kreatif"]) {
       topCategory = "Singa Ramah";
     } else if (scores["Penemu Visioner"] === scores["Penyihir Kreatif"]) {
@@ -218,31 +256,23 @@ const calculateResult = () => {
     }
   }
 
-  console.log("Top Category: ", topCategory);
-  console.log(personaExplanation[topCategory]);
-  
-}
-
+  localStorage.setItem("topCategory", topCategory);
+  localStorage.setItem(
+    "personaExplanation",
+    JSON.stringify(personaExplanation[topCategory])
+  );
+};
 
 const handleNext = () => {
   index++;
+  const question = questions[index];
+  updateUI(question);
   if (index === questions.length) {
     calculateResult();
-    window.location.href = "/result.html?persona=" + topCategory;
-    return;
+    setTimeout(() => {
+      window.location.href = "/done.html";
+    }, 500);
   }
-  const question = questions[index];
-  updateUI(question);
-
-};
-
-const handlePrev = () => {
-  if (index < 1) {
-    window.location.href = "/story.html";
-  }
-  index--;
-  const question = questions[index];
-  updateUI(question);
 };
 
 const updateUI = (question) => {
@@ -251,23 +281,27 @@ const updateUI = (question) => {
   const progressWidth = document.getElementById("progress");
   const nextButton = document.getElementById("button-next");
 
-  questionText.innerHTML = question.question;
-  if (answers[index] !== undefined) {
-    nextButton.classList.remove('disabled');
-  } else {
-    nextButton.classList.add('disabled');
+  if (questionText && optionsContainer && progressWidth && nextButton) {
+    questionText.innerHTML = question?.question;
+    if (answers[index] !== undefined) {
+      nextButton.classList.remove("disabled");
+    } else {
+      nextButton.classList.add("disabled");
+    }
+    const optionList = question?.options?.map((e, i) => {
+      const classActive = answers[index] === i ? "selected" : "";
+      return `
+        <div class="card shadow-sm border border-0 answer ${classActive}" onclick="handleSelect(${i})">
+          <div class="card-body">${e}</div>
+        </div>
+      `;
+    });
+    if (!!question) {
+      optionsContainer.innerHTML = optionList.join(" ");
+    }
+    const width = (index / questions.length) * 100;
+    progressWidth.style.width = `${Math.round(width)}%`;
   }
-  const optionList = question.options.map((e, i) => {
-    const classActive = answers[index] === i ? "selected" : "";
-    return `
-      <div class="card shadow-sm border border-0 answer ${classActive}" onclick="handleSelect(${i})">
-        <div class="card-body">${e}</div>
-      </div>
-    `;
-  });
-  optionsContainer.innerHTML = optionList.join(" ");
-  const width = ((index + 1) / questions.length) * 100;
-  progressWidth.style.width = `${Math.round(width)}%`;
 };
 
 window.onload = function (event) {
